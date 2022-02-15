@@ -45,6 +45,17 @@
   height: 90px;
 }
 
+.framework img {
+  height: 30px;
+  width: 30px;
+}
+
+.html img {
+  margin-right: 15px;
+  height: 55px;
+  width: 55px;
+}
+
 .icons img:hover {
   transform: scale(1.2);
 }
@@ -105,6 +116,11 @@
 
 .icons ul {
   display: flex;
+}
+
+li {
+  list-style-type: none;
+  justify-content: space-between;
 }
 
 .icons li {
@@ -285,11 +301,6 @@
   align-items: center;
 }
 
-li {
-  list-style-type: none;
-  justify-content: space-between;
-}
-
 .javascript {
   display: flex;
   border: white 2px solid;
@@ -314,12 +325,6 @@ li {
   height: 70px;
 }
 
-.html img {
-  margin-right: 15px;
-  height: 55px;
-  width: 55px;
-}
-
 .css {
   display: flex;
   border: white 2px solid;
@@ -336,9 +341,4 @@ li {
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
-
-.framework img {
-  height: 30px;
-  width: 30px;
 }
