@@ -15,6 +15,47 @@
   margin: 0 auto;
 }
 
+.picture img {
+  width: 260px;
+  margin: 0 auto;
+  display: block;
+}
+
+.lang img {
+  height: 30px;
+  width: 30px;
+}
+
+.javascript img {
+  margin-right: 15px;
+  height: 55px;
+  width: 55px;
+}
+
+}
+
+.css img {
+  margin-right: 15px;
+  height: 55px;
+  width: 55px;
+}
+
+.framework {
+  align-items: center;
+  width: 290px;
+  margin: 0 auto;
+  height: 90px;
+}
+
+.icons img:hover {
+  transform: scale(1.2);
+}
+
+.picture img:hover {
+  border: 2px blue solid;
+  border-radius: 15px;
+}
+
 #head img {
   width: 30px;
   height: 20px;
@@ -45,6 +86,13 @@
   margin-right: 20px;
 }
 
+.para {
+  width: 260px;
+  margin: 0 auto;
+  font-weight: bold;
+  color: rgb(116, 111, 111);
+}
+
 .first-page .para {
   margin-left: 20px;
   margin-right: 30px;
@@ -65,10 +113,6 @@
   list-style-type: none;
   margin-right: 40px;
   margin-left: -20px;
-}
-
-.icons img:hover {
-  transform: scale(1.2);
 }
 
 /* Work-section */
@@ -97,17 +141,6 @@
   padding: 0 10px;
 }
 
-.picture img {
-  width: 260px;
-  margin: 0 auto;
-  display: block;
-}
-
-.picture img:hover {
-  border: 2px blue solid;
-  border-radius: 15px;
-}
-
 .heading {
   display: flex;
   align-items: center;
@@ -129,13 +162,6 @@
 
 .year p {
   padding-right: 10px;
-  font-weight: bold;
-  color: rgb(116, 111, 111);
-}
-
-.para {
-  width: 260px;
-  margin: 0 auto;
   font-weight: bold;
   color: rgb(116, 111, 111);
 }
@@ -266,11 +292,6 @@ li {
   justify-content: space-between;
 }
 
-.lang img {
-  height: 30px;
-  width: 30px;
-}
-
 .javascript {
   display: flex;
   border: white 2px solid;
@@ -281,12 +302,6 @@ li {
   width: 290px;
   margin: 30px auto;
   height: 70px;
-}
-
-.javascript img {
-  margin-right: 15px;
-  height: 55px;
-  width: 55px;
 }
 
 .html {
@@ -317,20 +332,6 @@ li {
   width: 290px;
   margin: 30px auto;
   height: 70px;
-}
-
-.css img {
-  margin-right: 15px;
-  height: 55px;
-  width: 55px;
-}
-
-.framework {
-  align-items: center;
-  width: 290px;
-  margin: 0 auto;
-  height: 90px;
-}
 
 .framework ul {
   display: flex;
